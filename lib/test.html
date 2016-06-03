@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<script type="text/javascript" src="test.js"></script>
+		<script type="text/javascript" src="sydneyTrains.js"></script>
+		<script type="text/javascript" src="lineNames.js"></script>
+		<script type="text/javascript" src="lines/BlueMountains.js"></script>
+		<script type="text/javascript" src="lines/CentralCoastNewcastle.js"></script>
+		<script type="text/javascript" src="lines/HunterDungog.js"></script>
+		<script type="text/javascript" src="lines/HunterScone.js"></script>
+		<script type="text/javascript" src="lines/SouthCoastBomaderry.js"></script>
+		<script type="text/javascript" src="lines/SouthCoastPortKembla.js"></script>
+		<script type="text/javascript" src="lines/SouthernHighlands.js"></script>
+		<script type="text/javascript">
+			var lines = sydneyTrains.getLinesFromStation('Central');
+			var stations = sydneyTrains.getStationsFromLine('Blue Mountains Line');
+			console.log(lines);
+			console.log(stations);
+			
+		</script>
+	</body>
+</html>
